@@ -1,0 +1,1 @@
+Simple account setting built with `React` and `styled components`.
