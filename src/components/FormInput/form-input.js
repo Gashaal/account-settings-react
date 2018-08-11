@@ -8,4 +8,8 @@ export default styled.input`
   padding: 8px 0;
   font-size: 14px;
   outline: none;
+  
+  &:focus {
+    border-bottom: 2px solid #0164f9;
+  }
 `;
