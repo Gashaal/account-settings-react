@@ -1,4 +1,4 @@
 {
   "name": "AccountWrapper",
-  "main": "account-wrapper.js"
+  "main": "./account-wrapper.js"
 }
