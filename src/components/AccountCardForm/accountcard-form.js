@@ -11,11 +11,16 @@ import FormButton from '../FormButton';
 import avatar from './avatar.jpg';
 
 const FormWrapper = styled.div`
-  padding: 60px 40px 40px;
+  padding: 60px 30px 30px;
   background: #fff;
-  margin-right: -120px;
+  margin-right: -60px;
   box-shadow: 0 22px 50px rgba(14,21,47, .2), 0 8px 20px rgba(14,21,47, .2);
   position: relative;
+  
+  @media (min-width: 768px) {
+    padding: 60px 40px 40px;
+    margin-right: -120px;
+  }
 `;
 
 const ButtonsWrapper = styled.div`
