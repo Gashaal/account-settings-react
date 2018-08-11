@@ -1,4 +1,3 @@
-import styled from 'styled-components';
 import FormInput from '../FormInput';
 
 export default FormInput.withComponent('textarea').extend`
